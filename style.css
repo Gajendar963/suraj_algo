@@ -1,0 +1,226 @@
+ style
+
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #0b1e34;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background-color: #0f2a45;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffaa00;
+        }
+
+         nav a {
+            margin-left: 30px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px;
+        }
+
+        .text-section {
+            max-width: 600px;
+        }
+
+        .text-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+  .text-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            
+        }
+
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #005dc1;
+        }
+
+        .chart-image {
+            width: 500px;
+            border: 1px solid #1a3a5d;
+            border-radius: 12px;
+        }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service-box {
+      padding: 20px;
+      background: #0f2a45;
+      border-radius: 8px;
+    }
+     
+    .broker-scroll {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: #fff;
+      overflow: hidden;
+      white-space: nowrap;
+      padding: 20px 0;
+    }
+    .broker-track {
+      display: inline-block;
+      animation: scroll-left 20s linear infinite;
+    }
+    .broker-track span {
+      display: inline-block;
+      margin: 0 50px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    ne-block {
+      margin: 0 50px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+
+     
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    .faq-container {
+      max-width: 800px;
+      margin: auto;
+      background: #0f2a45;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+      cursor: pointer;
+    }
+
+    .faq-question {
+      font-weight: bold;
+      position: relative;
+    }
+
+    .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      font-size: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.active .faq-question::after {
+      content: '-';
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      color: white;
+      margin-top: 8px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 200px; /* adjust based on content */
+    }
+    
+  
+
+
+    
+
+
+     
+
+   
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
