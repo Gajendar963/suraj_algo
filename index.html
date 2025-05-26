@@ -18,7 +18,7 @@
             <a href="#Features">Features</a>
             <a href="#FAQ">FAQ</a>
             <a href="#Contact">Contact</a>
-            <a href="#Login">Login</a>
+            <button class="cta-button">Login</button>
         </nav>
     </header>
 <section class="main">
@@ -32,7 +32,7 @@
             <button class="cta-button">Contact us</button>
              <button class="cta-button">Register now</button>
         </div> 
-        <img src="banner.avif"Suraj_Algo,\ alt="download" class="chart-image">
+        <img src="Surajalgo.jpg"Suraj_Algo,\ alt="download" class="chart-image">
     </section>
 
     <section class="section" id="services">
@@ -209,75 +209,86 @@
                     <div class="faq-container">
                                <h1>FAQ</h1>
                    <div class="faq-item">
-                     <div class="faq-question">What is your return policy?</div>
-                     <div class="faq-answer">We offer a 30-day return policy on all products.</div>
+                     <div class="faq-question">How do I register or log in on the website?</div>
+                     <div class="faq-answer">"On the homepage, there will be a Login option. Just click the Login button to open the login page. There, you will see an option to create an account. Click it and fill in the required details."</div>
                    </div>
 
                    <div class="faq-item">
-                     <div class="faq-question">How do I track my order?</div>
-                     <div class="faq-answer">You can track your order using the tracking link sent to your email.</div>
+                     <div class="faq-question">What do I need to start using Suraj Algo Trading?</div>
+                     <div class="faq-answer">"Activate Suraj Algo membership.
+                                          Create a TradingView or Tradil account (free and basic accounts will not work).
+                                          Get an API from your broker."</div>
+
                    </div>
 
                    <div class="faq-item">
-                     <div class="faq-question">Do you ship internationally?</div>
-                     <div class="faq-answer">Yes, we ship to most countries worldwide with standard and express options.</div>
+                     <div class="faq-question">I need more information about algorithms and I have some doubts. How can I contact you?</div>
+                     <div class="faq-answer">"Please feel free to message me on WhatsApp or call us at +91 9650823784."</div>
                    </div>
+
+                     <div class="faq-item">
+                     <div class="faq-question">Does Suraj Algo provide any guarantee of returns?</div>
+                     <div class="faq-answer">No. Traders are fully responsible for their own strategies. Suraj Algo is solely a signal execution platform and does not guarantee or assume liability for any trading outcomes.</div>
+                    </div>
+
+                      <div class="faq-item">
+                     <div class="faq-question">Can I use Suraj Algo with any broker?</div>
+                     <div class="faq-answer">Suraj Algo supports brokers that provide trading APIs. Please check with your broker or contact support for the latest list of supported platforms.</div>
+
+
 
                  </div>
-                   <script>
-                   const faqItems = document.querySelectorAll('.faq-item');
+                  
 
-                    faqItems.forEach(item => {
-                      item.addEventListener('click', () => {
-                        item.classList.toggle('active');
-
-                        // Optionally close others
-                        faqItems.forEach(other => {
-                          if (other !== item) {
-                            other.classList.remove('active');
-                          }
-                        });
-                      });
-                    });
-                 </script>
+                
    
-  <title>Login / Register</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <div class="container">
-    <div class="form-box">
-      <h2 id="form-title">Login</h2>
-
-      <form id="authForm">
-        <div class="input-group">
-          <label for="username">Username</label>
-          <input type="text" id="username" required>
-        </div>
-
-        <div class="input-group">
-          <label for="password">Password</label>
-          <input type="password" id="password" required>
-        </div>
-
-        <div class="input-group" id="confirm-password-group" style="display: none;">
-          <label for="confirmPassword">Confirm Password</label>
-          <input type="password" id="confirmPassword">
-        </div>
-
-        <button type="submit" id="submitBtn">Login</button>
-
-        <p id="message"></p>
-
-        <p class="toggle-link">
-          Don't have an account? <a href="#" id="toggleLink">Register here</a>
-        </p>
-      </form>
+  
     </div>
   </div>
 
   <script src="script.js"></script>
+  <div>
+
+ <div class="container">
+    <h1>Contact Us</h1>
+    <form id="contactForm" novalidate>
+      <div class="input-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="input-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+      
+      
+
+      <p id="statusMessage"></p>
+    </form>
+  </div>
+  
+
+
+
+
+    <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 YourCompany. All rights reserved.</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a> | 
+      <a href="#">Contact Us</a>
+    </p>
+  </div>
+</footer>
 </body>
 </html>
 
